@@ -1,5 +1,5 @@
 /* Leiterbahn SW — network-first for HTML; cache-first for assets; versioned cache. */
-var CACHE = "leiterbahn-v1.8";
+var CACHE = "leiterbahn-v1.9";
 var PRECACHE = [
   "./assets/music/01-beak-titel.mp3",
   "./assets/music/03-leiterbahn.mp3"
