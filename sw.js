@@ -1,7 +1,15 @@
-/* Leiterbahn SW — network-first for HTML so deploys land promptly; versioned cache. */
-var CACHE = "leiterbahn-v1.7";
+/* Leiterbahn SW — network-first for HTML; cache-first for assets; versioned cache. */
+var CACHE = "leiterbahn-v1.8";
+var PRECACHE = [
+  "./assets/music/01-beak-titel.mp3",
+  "./assets/music/03-leiterbahn.mp3"
+];
 self.addEventListener("install", function (e) {
-  self.skipWaiting();
+  e.waitUntil(
+    caches.open(CACHE).then(function (c) {
+      return c.addAll(PRECACHE).catch(function () {});
+    }).then(function () { return self.skipWaiting(); })
+  );
 });
 self.addEventListener("activate", function (e) {
   e.waitUntil(
