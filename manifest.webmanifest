@@ -1,0 +1,19 @@
+{
+  "id": "/leiterbahn/",
+  "name": "BEAK Leiterbahn-Puzzle",
+  "short_name": "Leiterbahn",
+  "description": "Leiterbahn-Puzzle – Schaltungs-Kacheln drehen und LEDs mit Strom versorgen",
+  "start_url": "/leiterbahn/",
+  "scope": "/leiterbahn/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#dd007a",
+  "theme_color": "#dd007a",
+  "lang": "de",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
