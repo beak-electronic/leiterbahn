@@ -1,5 +1,5 @@
 /* Leiterbahn SW — network-first for HTML so deploys land promptly; versioned cache. */
-var CACHE = "leiterbahn-v1.6";
+var CACHE = "leiterbahn-v1.7";
 self.addEventListener("install", function (e) {
   self.skipWaiting();
 });
