@@ -3,7 +3,7 @@
   "name": "BEAK Leiterbahn-Puzzle",
   "short_name": "Leiterbahn",
   "description": "Leiterbahn-Puzzle \u2013 Schaltungs-Kacheln drehen und LEDs mit Strom versorgen",
-  "start_url": "/leiterbahn/?v=1.5",
+  "start_url": "/leiterbahn/?v=1.6",
   "scope": "/leiterbahn/",
   "display": "standalone",
   "orientation": "any",
